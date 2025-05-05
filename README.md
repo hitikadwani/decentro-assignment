@@ -4,7 +4,7 @@ A simple command-line based to-do list application that allows you to track your
 
 ## Features
 
-- Add tasks with title, optional description, an,status d  due date
+- Add tasks with title, optional description, status, and optional due date
 - List all tasks with their status
 - Mark tasks as completed
 - Delete tasks
