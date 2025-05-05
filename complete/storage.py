@@ -3,7 +3,7 @@ import os
 from typing import List, Dict, Any
 
 # Define the path to the JSON file
-TASKS_FILE = "tasks.json"
+TASKS_FILE = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'file', 'tasks.json')
 
 def load_tasks() -> List[Dict[str, Any]]:
     """

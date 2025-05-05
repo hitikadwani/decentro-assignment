@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import sys
-from complete import task_manager
+import task_manager
 
 def print_help():
     """

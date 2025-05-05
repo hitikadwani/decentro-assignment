@@ -4,7 +4,7 @@ A simple command-line based to-do list application that allows you to track your
 
 ## Features
 
-- Add tasks with title, description, and optional due date
+- Add tasks with title, optional description, and  due date
 - List all tasks with their status
 - Mark tasks as completed
 - Delete tasks
@@ -17,11 +17,11 @@ A simple command-line based to-do list application that allows you to track your
 task_tracker/
 │
 ├── main.py                 # CLI entry point
+├── task_manager.py         # Functions to add, delete, mark complete
 ├── complete/
-│   └── task_manager.py     # Functions to add, delete, mark complete
-├── file/
 │   └── storage.py          # Functions to read/write JSON file
-├── tasks.json              # Stores task data
+├── file/
+│   └── tasks.json          # Stores task data
 └── README.md               # Instructions & how to run
 ```
 

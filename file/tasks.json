@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "title": "Buy groceries",
+        "description": "Milk, eggs, bread",
+        "status": "Pending",
+        "created_at": "2025-05-05 21:20:04",
+        "due_date": "2025-05-10"
+    },
+    {
+        "id": 2,
+        "title": "Buy fruits",
+        "description": "Apple, Banana, Orange",
+        "status": "Pending",
+        "created_at": "2025-05-05 21:20:16",
+        "due_date": "2025-05-07"
+    }
+]
