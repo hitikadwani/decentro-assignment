@@ -17,11 +17,11 @@ A simple command-line based to-do list application that allows you to track your
 task_tracker/
 │
 ├── main.py                 # CLI entry point
-├── task_manager.py         # Functions to add, delete, mark complete
 ├── complete/
-│   └── storage.py          # Functions to read/write JSON file
+│   └── task_manager.py     # Functions to add, delete, mark complete
 ├── file/
-│   └── tasks.json          # Stores task data
+│   └── storage.py          # Functions to read/write JSON file
+├── tasks.json              # Stores task data
 └── README.md               # Instructions & how to run
 ```
 
@@ -88,3 +88,7 @@ python main.py complete 1
 ## Data Storage
 
 Tasks are stored in a `tasks.json` file in the same directory as the application. The file is created automatically when you add your first task.
+
+## Challenges Faced
+
+Refactoring the project structure required careful handling of imports and file paths to avoid errors. Ensuring robust data storage and cross-platform compatibility also posed challenges, especially when dynamically locating and managing the `tasks.json` file.
